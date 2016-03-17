@@ -1,0 +1,94 @@
+{
+    "shoes":[{
+            "id": "1",
+            "color":[
+                "brown"
+            ],
+            "type": "sandals",
+            "purchaseDate":"12/12/2000",
+            "brand": "Clarks",
+            "season":[
+                "Winter"
+            ],
+            "picture":""
+        },
+        {
+            "id": "2",
+            "color":[
+                "brown"
+            ],
+            "type": "sandals",
+            "purchaseDate":"12/12/2000",
+            "brand": "Clarks",
+            "season":[
+                "Winter"
+            ],
+            "picture":""
+        },
+        {
+            "id": "3",
+            "color":[
+                "brown"
+            ],
+            "type": "sandals",
+            "purchaseDate":"12/12/2000",
+            "brand": "Clarks",
+            "season":[
+                "Winter"
+            ],
+            "picture":""
+        },
+        {
+            "id": "3",
+            "color":[
+                "brown"
+            ],
+            "type": "sandals",
+            "purchaseDate":"12/12/2000",
+            "brand": "Clarks",
+            "season":[
+                "Winter"
+            ],
+            "picture":""
+        },
+        {
+            "id": "4",
+            "color":[
+                "brown"
+            ],
+            "type": "sandals",
+            "purchaseDate":"12/12/2000",
+            "brand": "Clarks",
+            "season":[
+                "Winter"
+            ],
+            "picture":""
+        },
+        {
+            "id": "5",
+            "color":[
+                "brown"
+            ],
+            "type": "sandals",
+            "purchaseDate":"12/12/2000",
+            "brand": "Clarks",
+            "season":[
+                "Winter"
+            ],
+            "picture":""
+        },
+        {
+            "id": "6",
+            "color":[
+                "brown"
+            ],
+            "type": "sandals",
+            "purchaseDate":"12/12/2000",
+            "brand": "Clarks",
+            "season":[
+                "Winter"
+            ],
+            "picture":""
+        }
+    ]
+}

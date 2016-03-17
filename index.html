@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   	<title>Grid with controlgroup - jQuery Mobile: Design and Develop</title>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.js"></script>
+    <style type="text/css">
+	.ui-grid-a .ui-block-b {
+		text-align: right;
+	}
+	</style>
+</head>
+<body>
+	<div data-role="page">
+		<div data-role="header">
+			<div class="ui-grid-a">
+				<div class="ui-block-a">
+					<div data-role="controlgroup" data-type="horizontal">
+						<a href="#" data-role="button" data-icon="home">Home</a>
+						<a href="#" data-role="button" data-icon="plus">Add item</a>
+					</div>
+				</div>
+				<div class="ui-block-b">
+					<div data-role="controlgroup" data-type="horizontal">
+						<a href="#" data-role="button" data-icon="delete">Delete</a>
+						<a href="#" data-role="button" data-icon="check">Save</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div data-role="content">
+		<form action="#" method="get">
+			<label for="basic">Text Input:</label>
+			<input type="text" name="name" id="basic"/>
+
+<!--collection -->
+			<label for="select-choice-0" class="select">Choose item:</label>
+			<select name="select-choice-0" id="select-choice-0">
+				<option>Choose one option...</option>
+			   	<option value="accessories">Accessory</option>
+			   	<option value="bags">Bag</option>
+				<option value="coats">Coat</option>
+				<option value="hats">Hats</option>
+				<option value="pants">Pants</option>
+				<option value="shoes">Shoes</option>
+				<option value="skirts">Shirt</option>
+				<option value="tops">Top</option>
+			</select>
+
+
+<!--season -->
+			<div data-role="fieldcontain">
+			    <fieldset data-role="controlgroup">
+				   <legend>Which season can you wear it?:</legend>
+				   <input type="checkbox" name="checkbox-2" id="checkbox-2" class="custom" />
+				   <label for="checkbox-2">Spring</label>
+				   <input type="checkbox" name="checkbox-3" id="checkbox-3" class="custom" />
+				   <label for="checkbox-3">Summer</label>
+				   <input type="checkbox" name="checkbox-4" id="checkbox-4" class="custom" />
+				   <label for="checkbox-4">Autumn</label>
+				   <input type="checkbox" name="checkbox-5" id="checkbox-5" class="custom" />
+				   <label for="checkbox-5">Winter</label>
+			    </fieldset>
+			</div>
+"id": "1",
+            "color":[
+                "red", "green", "white", "brown"
+            ],
+            "type": "belt",
+            "purchaseDate":"07/10/2015",
+            "brand": "Top Shop",
+            "season":[
+                "Winter", "Autumn", "Summer", "Spring"
+            ],
+            "picture":""
+
+
+
+		</form>
+		</br>
+	<div data-role="footer" data-position="fixed">
+		<h4>Copyright</h4>
+	</div>
+
+	</div>
+			
+
+<!--
+
+			<p>Body Copy</p>
+
+<div data-role="collapsible-set">
+
+	<div data-role="collapsible" data-collapsed="false">
+	<h3>Section 1</h3>
+	<p>I'm the collapsible set content for section 1.</p>
+	</div>
+	
+	<div data-role="collapsible">
+	<h3>Section 2</h3>
+	<p>I'm the collapsible set content for section 2.</p>
+	</div>
+	
+</div>
+	
+                    <div data-role="collapsible-set">
+                        <div data-role="collapsible">
+						<h3>Collapsible content header</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent non dolor quis elit suscipit commodo a eu velit. Nulla sodales velit arcu, at accumsan nisi. Donec porta tempus lorem, eget luctus diam luctus ac. Nunc et aliquam massa. Duis enim felis, varius quis pharetra quis, iaculis ac nulla. Morbi congue suscipit elit vel porta. Proin lacinia scelerisque risus, at elementum diam elementum et.</p>
+					</div>
+					</div>
+					                    <div class="ui-grid-c">
+                        <div class="ui-block-a">
+                            <div class="ui-bar ui-bar-b">A</div>
+                        </div>
+                        <div class="ui-block-b">
+                            <div class="ui-bar ui-bar-b">B</div>
+                        </div>
+                        <div class="ui-block-c">
+                            <div class="ui-bar ui-bar-b">C</div>
+                        </div>
+                        <div class="ui-block-d">
+                            <div class="ui-bar ui-bar-b">D</div>
+                        </div>
+                        <div class="ui-block-a">
+                            <div class="ui-bar ui-bar-b">A</div>
+                        </div>
+                        <div class="ui-block-b">
+                            <div class="ui-bar ui-bar-b">B</div>
+                        </div>
+                        <div class="ui-block-c">
+                            <div class="ui-bar ui-bar-b">C</div>
+                        </div>
+                        <div class="ui-block-d">
+                            <div class="ui-bar ui-bar-b">D</div>
+                        </div>
+                    </div>
+                </div>
+                <ul data-role="listview">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Articles</a></li>
+					<li><a href="#">Videos</a></li>
+					<li><a href="#">Books</a></li>
+					<li><a href="#">More</a></li>
+					<li>
+						<h2>More</h2>
+						<p>Find more resources on jQuery Mobile</p>
+						<ul data-role="listview">
+							<li><a href="http://www.jquerymobile.com">jQuery Mobile</a></li>
+							<li><a href="http://www.jquery.com">jQuery</a></li>
+						</ul>
+					</li>
+				</ul>
+				<ul data-role="listview" data-inset="true">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Articles</a></li>
+					<li><a href="#">Videos</a></li>
+					<li><a href="#">Books</a></li>
+					<li><a href="#">More</a></li>
+				</ul>
+
+				<ul data-role="listview">
+					<li data-role="list-divider">The Beatles</li>
+					<li>Meet The Beatles!</li>
+					<li>A Hard Day’s Night</li>
+					<li>Help!</li>
+					<li>Rubber Soul</li>
+					<li>Revolver</li>
+					<li data-role="list-divider">The Doors</li>
+					<li>The Doors</li>
+					<li>Strange Days</li>
+					<li>Waiting for the Sun</li>
+					<li>The Soft Parade</li>
+					<li>Morrison Hotel</li>
+					<li data-role="list-divider">The Jimi Hendrix Experience</li>
+					<li>Are You Experienced</li>
+					<li>Bold as Love</li>
+					<li>Electric Ladyland</li>
+				</ul>
+
+				<ul data-role="listview">
+					<li>
+						<a href="#led-zeppelin/led-zeppelin-iv">
+							<img src="assets/img/led-zeppelin-IV.png" >
+							<h3>Led Zeppelin</h3>
+							<p>Led Zeppelin IV</p>
+						</a>
+					</li>
+					<li>
+						<a href="#led-zeppelin/houses-of-the-holy">
+							<img src="assets/img/houses-of-the-holy.png" >
+							<h3>Led Zeppelin</h3>
+							<p>Houses of the Holy</p>
+						</a>
+					</li>
+				</ul>
+				</br></br></br></br>
+
+				<ul data-role="listview" data-filter="true" data-filter-placeholder="Search the song list...">
+					<li>Across The Universe</li>
+					<li>Act Naturally</li>
+					<li>Ain’t She Sweet</li>
+					<li>All I’ve Got To Do</li>
+					<li>All My Loving</li>
+					<li>All Together Now</li>
+					<li>All You Need Is Love</li>
+					<li>And I Love Her</li>
+					<li>And Your Bird Can Sing</li>
+					<li>Anna (Go To Him)</li>
+					<li>Another Girl</li>
+					<li>Any Time At All</li>
+					<li>Ask Me Why</li>
+					<li>Baby It’s You</li>
+					<li>Baby, You’re A Rich Man</li>
+					<li>Baby’s In Black</li>
+					<li>Back In The U.S.S.R.</li>
+					<li>Bad Boy</li>
+					<li>The Ballad Of John And Yoko</li>
+					<li>Because</li>
+					<li>Being For The Benefit Of Mr. Kite!</li>
+					<li>Besame Mucho</li>
+					<li>Birthday</li>
+					<li>Blackbird</li>
+				</ul>
+
+-->
+
+
+        </body>
+    </html>

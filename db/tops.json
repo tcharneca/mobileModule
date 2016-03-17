@@ -1,0 +1,94 @@
+{
+    "tops":[{
+            "id": "1",
+            "color":[
+                "blue"
+            ],
+            "type": "shirt",
+            "purchaseDate":"07/09/2015",
+            "brand": "Top Shop",
+            "season":[
+                "Winter", "Autumn"
+            ],
+            "picture":""
+        },
+        {
+            "id": "2",
+            "color":[
+                "brown"
+            ],
+            "type": "sandals",
+            "purchaseDate":"12/12/2000",
+            "brand": "Clarks",
+            "season":[
+                "Winter"
+            ],
+            "picture":""
+        },
+        {
+            "id": "3",
+            "color":[
+                "brown"
+            ],
+            "type": "sandals",
+            "purchaseDate":"12/12/2000",
+            "brand": "Clarks",
+            "season":[
+                "Winter"
+            ],
+            "picture":""
+        },
+        {
+            "id": "3",
+            "color":[
+                "brown"
+            ],
+            "type": "sandals",
+            "purchaseDate":"12/12/2000",
+            "brand": "Clarks",
+            "season":[
+                "Winter"
+            ],
+            "picture":""
+        },
+        {
+            "id": "4",
+            "color":[
+                "brown"
+            ],
+            "type": "sandals",
+            "purchaseDate":"12/12/2000",
+            "brand": "Clarks",
+            "season":[
+                "Winter"
+            ],
+            "picture":""
+        },
+        {
+            "id": "5",
+            "color":[
+                "brown"
+            ],
+            "type": "sandals",
+            "purchaseDate":"12/12/2000",
+            "brand": "Clarks",
+            "season":[
+                "Winter"
+            ],
+            "picture":""
+        },
+        {
+            "id": "6",
+            "color":[
+                "brown"
+            ],
+            "type": "sandals",
+            "purchaseDate":"12/12/2000",
+            "brand": "Clarks",
+            "season":[
+                "Winter"
+            ],
+            "picture":""
+        }
+    ]
+}
